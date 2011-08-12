@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>PyrmontAction</title>
+
+
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="author" content="Jens Schumacher" />
+<meta name="description" content="PyrmontAction" />
+
+<meta name="keywords" content="pyrmont, action" />
+<meta name="robots" content="index, follow, noarchive" />
+<meta name="googlebot" content="noarchive" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/date.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/blogger.js"></script>
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+<script type="text/javascript" charset="utf-8">
+try{
+	google.load("gdata", "1.x");
+	google.setOnLoadCallback(getBlogTitles);
+}
+catch(err)
+{
+	$(document).ready(function () {
+		$("<h5>").appendTo("#hot-topics").html("The hot topics are currently unavailable");
+	});
+}
+</script>
+</head>
+<body>
+
+	<!-- header starts-->
+	<div id="header-wrap"><div id="header" class="container_16">										
+		
+		<!-- navigation  shared-->
+	    <div  id="nav">
+		    <ul>
+				<li class="first"><a href="index.html" id="home"></b>Pyrmont</b><span class="highlight">Action<span></a></li>
+				<li id="current"><a href="news.html">News/Events</a></li>				
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="join.html">Join</a></li>
+				<li><a href="contact.html">Contact</a></li>				
+				<li><a href="links.html">Links</a></li>				
+			</ul>	
+		</div>
+							
+	<!-- header ends here -->
+	</div></div>
+	
+	<!-- content starts -->
+	<div id="content-outer"><div id="content-wrapper" class="container_16">
+	
+		<!-- main -->
+		<div id="main" class="grid_12">
+			<h2>Hot Topics</h2>
+			<h3 id="topic-title"><img src="images/spinner.gif" class="spinner"></h3>
+			<p id="topic-content"></p>            	
+		<!-- main ends -->
+		</div>							
+        
+        <!-- right-columns starts -->        
+		<div id="right-column" class="grid_4">									
+			<div id="sidemenu" class="sidemenu">
+			    <h3>Recent Topics</h3>
+    			<ul id="hot-topics"></ul>    		     
+                <h5><a href="http://pyrmontaction.blogspot.com" target="_blank">Topics Archive</a></h5>    		      			    
+			</div>								
+		<!-- end right-columns -->
+		</div>
+	<!-- contents end here -->	
+	</div></div>
+
+	<!-- footer starts here -->	
+	<div id="footer-wrapper" class="container_16">
+				
+	</div>
+	<!-- footer ends here -->
+	   
+</body>
+</html>
